@@ -16,3 +16,4 @@
 - [x] useFullscreen
 - [x] useNotification
 - [x] useAxios
+- [x] useLocalStorage
