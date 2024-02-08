@@ -15,4 +15,4 @@
 - [x] useScroll
 - [x] useFullscreen
 - [x] useNotification
-- [ ] useAxios
+- [x] useAxios
