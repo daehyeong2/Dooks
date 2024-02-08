@@ -12,6 +12,7 @@ export const useFullscreen = (callback) => {
     if (document.fullscreenElement) {
       return;
     }
+    setFullscreen(true);
     if (element.current) {
       if (document.documentElement.requestFullscreen) {
         document.documentElement.requestFullscreen();
@@ -29,6 +30,7 @@ export const useFullscreen = (callback) => {
     if (!document.fullscreenElement) {
       return;
     }
+    setFullscreen(false);
     if (document.exitFullscreen) {
       document.exitFullscreen();
     } else if (document.mozCancelFullScreen) {
